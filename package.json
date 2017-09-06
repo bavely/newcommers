@@ -1,0 +1,36 @@
+{
+  "name": "newcommers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.4",
+    "morgan": "^1.8.2",
+    "mysql2": "^1.4.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-image-slider": "^0.1.0",
+    "react-router": "^2.4.1",
+    "react-router-dom": "^4.2.2",
+    "react-slick": "^0.15.0",
+    "request": "^2.81.0",
+    "sequelize": "^4.4.3",
+    "slick-carousel": "^1.7.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.13",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "webpack": "^1.13.1"
+  }
+}

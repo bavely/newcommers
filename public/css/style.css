@@ -1,0 +1,344 @@
+body {
+    background-image: url("../imags/green_cup.png");
+    margin: 0;
+    padding: 0;
+}
+
+#contentbody {
+    position: relative;
+    top: 50px;
+    margin-bottom: 500px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.page-header {
+    background-color: #013532;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.header {
+    z-index: 1;
+}
+
+.EGY {
+    width: 200px;
+    position: relative;
+    top: 19px;
+}
+
+.US {
+    width: 200px;
+    position: relative;
+    top: 19px;
+}
+
+.brand {
+    width: 57px;
+    position: relative;
+    bottom: 23px;
+}
+
+.navbar {
+    background-color: #014743;
+    z-index: 1;
+}
+
+.nav.navbar-nav li a {
+    color: #fff;
+}
+
+.dropdown-menu {
+    background-color: #014743;
+}
+
+
+/* .menuEle {
+    padding: 0 5px 0 5px;
+} */
+
+.mainLi {
+    z-index: 1;
+}
+
+.mainLi:hover {
+    background-color: #e7e7e7;
+}
+
+.dropdown-menu>li>a:hover {
+    color: black;
+}
+
+
+/*-----------------------Sticky Navbar   */
+
+.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 1000ms;
+}
+
+.affix+.container-fluid {
+    padding-top: 60px;
+}
+
+.navmain {
+    position: relative;
+    z-index: 1;
+}
+
+
+/* slider */
+
+#test {
+    height: 150px;
+    width: 280px;
+}
+
+.caro {
+    margin: 0 auto;
+    width: 80%;
+}
+
+a,
+Link {
+    text-decoration: none;
+    color: black;
+}
+
+a:link,
+Link:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited,
+Link:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover,
+Link:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:active,
+Link:active {
+    text-decoration: none;
+}
+
+.trac {
+    position: relative;
+    top: 100px;
+    padding: 0 10px 0 10px;
+}
+
+.cattitles {
+    position: relative;
+    top: 48px;
+    right: 10px;
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+.arabic {
+    position: relative;
+    top: 147px;
+    height: 0px;
+}
+
+
+/* Footer */
+
+footer {
+    /* margin-top: 300px; */
+    position: relative;
+    width: 100%;
+}
+
+.full {
+    width: 100%;
+}
+
+.gap {
+    height: 30px;
+    width: 100%;
+    clear: both;
+    display: block;
+}
+
+.footer {
+    background: #014743;
+    /* height: auto; */
+    padding-bottom: 30px;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #DDDDDD;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer img {
+    max-width: 100%;
+}
+
+.footer h3 {
+    border-bottom: 1px solid #BAC1C8;
+    color: #54697E;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    padding: 40px 0 10px;
+    text-transform: uppercase;
+}
+
+.footer ul {
+    font-size: 13px;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 15px;
+    color: #7F8C8D;
+}
+
+.footer ul li a {
+    padding: 0 0 5px 0;
+    display: block;
+}
+
+.footer a {
+    color: #78828D
+}
+
+.supportLi h4 {
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: normal;
+    margin-bottom: 0 !important;
+    padding-bottom: 0;
+}
+
+.newsletter-box input#appendedInputButton {
+    background: #FFFFFF;
+    display: inline-block;
+    float: left;
+    height: 30px;
+    clear: both;
+    width: 100%;
+}
+
+.newsletter-box .btn {
+    border: medium none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    height: 40px;
+    padding: 0;
+    width: 100%;
+    color: #fff;
+}
+
+.newsletter-box {
+    overflow: hidden;
+}
+
+.bg-gray {
+    background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+    box-shadow: 0 1px 0 #B4B3B3;
+}
+
+.social li {
+    background: none repeat scroll 0 0 #B5B5B5;
+    border: 2px solid #B5B5B5;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 8px 0 0;
+    padding: 0;
+    text-align: center;
+    width: 36px;
+    transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
+
+.social li:hover {
+    transform: scale(1.15) rotate(360deg);
+    -webkit-transform: scale(1.1) rotate(360deg);
+    -moz-transform: scale(1.1) rotate(360deg);
+    -ms-transform: scale(1.1) rotate(360deg);
+    -o-transform: scale(1.1) rotate(360deg);
+}
+
+.social li a {
+    color: #EDEFF1;
+}
+
+.social li:hover {
+    border: 2px solid #2c3e50;
+    background: #2c3e50;
+}
+
+.social li a i {
+    font-size: 16px;
+    margin: 0 0 0 5px;
+    color: #EDEFF1 !important;
+}
+
+.footer-bottom {
+    background: #002826;
+    border-top: 1px solid #DDDDDD;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-bottom p.pull-left {
+    padding-top: 6px;
+}
+
+.payments {
+    font-size: 1.5em;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    /* This line and the next line are not necessary unless you need IE6 support */
+    height: 100%;
+    margin: 0 auto -240px;
+    /* the bottom margin is the negative value of the footer's height */
+}
+
+.footer,
+.push {
+    height: 240px;
+    /* .push must be the same height as .footer */
+}
